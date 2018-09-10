@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "airbnb-base",
+    "plugin:vue/recommended"
+  ],
+  "rules": {
+    "import/no-unresolved": "off",
+    "allowForLoopAfterthoughts": true,
+    "no-param-reassign": ["error", { "props": false }]
+  }
+}
